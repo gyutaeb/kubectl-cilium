@@ -1,4 +1,4 @@
-module github.com/kakao/kubectl-cilium
+module github.com/gyutaeb/kubectl-cilium
 
 go 1.24.2
 

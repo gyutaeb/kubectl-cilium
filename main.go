@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kakao/kubectl-cilium/cmd"
+import "github.com/gyutaeb/kubectl-cilium/cmd"
 
 func main() {
 	cmd.Execute()

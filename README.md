@@ -2,6 +2,11 @@
 
 <h1 align="center">kubectl-cilium</h1>
 
+> **Fork Notice**
+>
+> This repository is the new home for the continued development of **[kakao/kubectl-cilium](https://github.com/kakao/kubectl-cilium)**, maintained by its original lead developer. I created this fork to personally continue building on its foundation and adding new features for the Cilium community.
+
+
 A CLI for kubernetes that helps you scan and monitor BPF map usage across all nodes managed by Cilium.
 This tool is designed to help cluster administrators proactively detect and address BPF map high eviction rates, such as a large number of active connections. If any nodes are identified as being at risk and encounter network issues, Please consider increasing the `--bpf-map-dynamic-size-ratio` parameter in the Cilium configuration.
 
@@ -19,7 +24,7 @@ For more details, please refer to: https://github.com/cilium/cilium/pull/37747
 ### Install via Go
 
 ```
-go install github.com/kakao/kubectl-cilium@latest
+go install github.com/gyutaeb/kubectl-cilium@latest
 ```
 
 ### Build from Source
@@ -90,10 +95,5 @@ Please consider increasing --bpf-map-dynamic-size-ratio in cilium-agent configur
 
 ---
 ## License
-This software is licensed under the Apache 2 license, quoted below.
 
-Copyright 2025 Kakao Corp. http://www.kakaocorp.com
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0.
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for the full license text and details.

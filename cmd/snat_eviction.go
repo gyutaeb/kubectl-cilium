@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 	"github.com/AlecAivazis/survey/v2"
+	"github.com/gyutaeb/kubectl-cilium/internal/scanner"
 	"github.com/spf13/cobra"
-	"github.com/kakao/kubectl-cilium/internal/scanner"
 	"os"
 )
 

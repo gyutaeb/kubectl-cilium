@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/kakao/kubectl-cilium/internal/pressure"
+	"github.com/gyutaeb/kubectl-cilium/internal/pressure"
 
 	"github.com/spf13/cobra"
 )
